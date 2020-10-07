@@ -27,3 +27,29 @@ Type domain.Mensaje is not enhanced.
 [2020-10-06 08:57:06 #9 type] 
 Type domain.Apuestas is not enhanced.
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-06 09:43:19 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 1884@LAPTOP-8SSA7ME8
+
+[2020-10-06 09:43:19 #2 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-06 09:43:19 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-06 09:43:19 #4 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-06 09:43:19 #5 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-06 09:43:19 #6 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-06 09:43:19 #7 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-06 09:43:19 #8 type] 
+Type domain.Apuestas is not enhanced.
+
