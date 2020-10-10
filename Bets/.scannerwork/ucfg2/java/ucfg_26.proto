@@ -1,0 +1,92 @@
+
+(domain.Event#equals(Ljava/lang/Object;)Z>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java‰ ‰("startingBlock*
+2>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java’
+ ’("H
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java’ ’(
+""*Þ
+3>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java (z
+x
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java (
+otherdomain.Event"__id*
+
+objjava.lang.Object…
+‚
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java‘ ‘(
+%2java.lang.Integer"__id*!*
+domain.Event"
+eventNumberŒ
+‰
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java‘ ‘(&
+%3java.lang.Integer"__id*(*&
+
+otherdomain.Event"
+eventNumber*
+2
+1*Ø
+startingBlock>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java‰ ‰("ˆ
+…
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.javaˆ ˆ(
+
+%4"
+__annotate*
+java.lang.Override*
+
+objjava.lang.Objectq
+o
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java‰ ‰(!
+objjava.lang.Object"__annotation*
+
+%4*	
+5
+6
+8*
+4>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java
+ ("H
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java (
+""*¦
+5>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.javaŽ Ž(¦£
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.javaŽ Ž(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+domain.Event2
+getClass()¯¬
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.javaŽ Ž("
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+objjava.lang.Object2
+getClass()*
+3
+4*
+6>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java
+ ("H
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java (
+""*
+8>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java‹
+ ‹("H
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java‹ ‹(
+""*
+1>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java“	 “("H
+>
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java“ “(
+"":
+objjava.lang.ObjectB
+domain.Event

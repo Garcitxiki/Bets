@@ -1,0 +1,44 @@
+
+LbusinessLogic.BLFacadeImplementation#getQuestionByNumber(I)Ldomain/Question;V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÅ Å($"1*ˆ	
+1V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÇ Ç()èå
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÇ Ç('
+%0dataAccess.DataAccess"dataAccess.DataAccess°
+û
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÇ Ç()
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess§
+°
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÇ Ç(*"
+	dBManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccess˜Ù
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÉ É(3
+%2domain.Question"=dataAccess.DataAccess#getQuestionByNumber(I)Ldomain/Question;*$
+"
+	dBManagerdataAccess.DataAccess*
+""2getQuestionByNumber(I)ì
+ê
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÉ É(4
+cartdomain.Question"__id*
+
+%2domain.Question∂≥
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÑ Ñ(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dBManagerdataAccess.DataAccess2close()"s
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÖ Ö(
+
+cartdomain.Question:
+""B(&
+$businessLogic.BLFacadeImplementation

@@ -1,0 +1,21 @@
+
++gui.MiPerfil#getCartera()Ljava/lang/String;>
+2C:/Users/garci/git/Bets/Bets/src/gui/MiPerfil.java— —("1*Ø
+1>
+2C:/Users/garci/git/Bets/Bets/src/gui/MiPerfil.java˜	 ˜(
+
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/MiPerfil.java˜	 ˜(
+%0javax.swing.JLabel"__id**
+gui.MiPerfil"	
+Cartera²¯
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/MiPerfil.java˜	 ˜(
+%1java.lang.String".javax.swing.JLabel#getText()Ljava/lang/String;*
+
+%0javax.swing.JLabel2	getText()"Z
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/MiPerfil.java˜ ˜(
+
+%1java.lang.StringB
+gui.MiPerfil

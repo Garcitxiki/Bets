@@ -1,0 +1,43 @@
+
+5dataAccess.DataAccess#eliminarEvento(Ldomain/Event;)IG
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java‚ ‚("1*è	
+1G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java„ „(øº
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java‰  ‰(3
+%0java.lang.Integer"0domain.Event#getEventNumber()Ljava/lang/Integer;*
+
+evdomain.Event2getEventNumber()l
+j
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java‰ ‰(5
+edomain.Event"__id*
+""¨©
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaÂ* Â(4
+%1domain.Categoria"'domain.Event#getCat()Ldomain/Categoria;*
+
+edomain.Event2getCat()√¿
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaÂ* Â(C
+%2java.lang.Integer"2domain.Categoria#getCatNumber()Ljava/lang/Integer;*
+
+%1domain.Categoria2getCatNumber()r
+p
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaÂ Â(E
+ca1domain.Categoria"__id*
+""‘—
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaÊ Ê(
+
+%3void"-domain.Categoria#removeEvent(Ldomain/Event;)V*
+
+ca1domain.Categoria*
+
+edomain.Event2removeEvent(Ldomain/Event;)"Q
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaÈ È(
+"":
+evdomain.EventB
+dataAccess.DataAccess

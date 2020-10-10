@@ -1,0 +1,73 @@
+
+RbusinessLogic.BLFacadeImplementation#getEvents(Ljava/util/Date;)Ljava/util/Vector;T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaH H("startingBlock*≥
+startingBlockT
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaH H(*ù
+ö
+T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaF F(
+%4"
+__annotate*
+java.lang.Override*
+
+datejava.util.Dateî
+ë
+T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaG G(
+%5"
+__annotate*
+	WebMethod*
+
+datejava.util.Dateè
+å
+T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaH% H()
+datejava.util.Date"__annotation*
+
+%4*
+
+%5*
+1*ã
+
+1T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaI I('çä
+T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaI I(%
+%0dataAccess.DataAccess"dataAccess.DataAccessü
+ú
+T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaI I('
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess¢
+ü
+T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaI I(("
+	dbManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccessìê
+T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaJ J(1
+%2java.util.Vector"CdataAccess.DataAccess#getEvents(Ljava/util/Date;)Ljava/util/Vector;*$
+"
+	dbManagerdataAccess.DataAccess*
+
+datejava.util.Date2getEvents(Ljava/util/Date;)ï
+í
+T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaJ J(2
+eventsjava.util.Vector"__id*
+
+%2java.util.Vector¥±
+T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaK K(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dbManagerdataAccess.DataAccess2close()"t
+T
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaL L(
+
+eventsjava.util.Vector:
+datejava.util.DateB(&
+$businessLogic.BLFacadeImplementation

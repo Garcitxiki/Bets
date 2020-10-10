@@ -1,0 +1,64 @@
+
+SbusinessLogic.BLFacadeImplementation#getCartera(Ldomain/Usuario;)Ljava/lang/Double;V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java◊ ◊("startingBlock*ò
+startingBlockV
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java◊ ◊(&û
+õ
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java÷ ÷(
+
+%4"
+__annotate*
+java.lang.Override*
+
+usudomain.Usuarioà
+Ö
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java◊" ◊(%
+usudomain.Usuario"__annotation*
+
+%4*
+1*ò
+
+1V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÿ ÿ()èå
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÿ ÿ('
+%0dataAccess.DataAccess"dataAccess.DataAccess°
+û
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÿ ÿ()
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess§
+°
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÿ ÿ(*"
+	dBManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccessñì
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaŸ Ÿ()
+%2java.lang.Double"DdataAccess.DataAccess#getCartera(Ldomain/Usuario;)Ljava/lang/Double;*$
+"
+	dBManagerdataAccess.DataAccess*
+
+usudomain.Usuario2getCartera(Ldomain/Usuario;)ï
+í
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaŸ Ÿ(*
+cartjava.lang.Double"__id*
+
+%2java.lang.Double∂≥
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java⁄ ⁄(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dBManagerdataAccess.DataAccess2close()"t
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java€ €(
+
+cartjava.lang.Double:
+usudomain.UsuarioB(&
+$businessLogic.BLFacadeImplementation

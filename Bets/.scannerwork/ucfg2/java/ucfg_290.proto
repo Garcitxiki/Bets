@@ -1,0 +1,45 @@
+
+PbusinessLogic.BLFacadeImplementation#getPronosticoByNumber(I)Ldomain/Pronostico;V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaè è(("1*Ç
+
+1V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaê ê()èå
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaê ê('
+%0dataAccess.DataAccess"dataAccess.DataAccess°
+û
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaê ê()
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess§
+°
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaê ê(*"
+	dBManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccessˇ¸
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaë ë(D
+%2domain.Pronostico"AdataAccess.DataAccess#getPronosticoByNumber(I)Ldomain/Pronostico;*$
+"
+	dBManagerdataAccess.DataAccess*
+""2getPronosticoByNumber(I)ñ
+ì
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaë ë(E
+prodomain.Pronostico"__id*
+
+%2domain.Pronostico∂≥
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaí í(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dBManagerdataAccess.DataAccess2close()"t
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaì ì(
+
+prodomain.Pronostico:
+""B(&
+$businessLogic.BLFacadeImplementation

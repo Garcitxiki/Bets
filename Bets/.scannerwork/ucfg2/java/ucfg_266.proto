@@ -1,0 +1,74 @@
+
+3gui.LoginGUI#getlblNewLabel_3()Ljavax/swing/JLabel;>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaò ò( "3*ù
+
+2>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaö ö(,‚
+ﬂ
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaö ö(C
+%1java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	EtiquetasıÚ
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaö ö(Z
+%2java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
+
+%1java.util.ResourceBundle*
+	NoAccount2getString(Ljava/lang/String;)pn
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaö ö(
+%3javax.swing.JLabel"javax.swing.JLabelØ
+¨
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaö ö([
+%4".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
+
+%3javax.swing.JLabel*
+
+%2java.lang.Stringà
+Ö
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaö ö([!
+gui.LoginGUI"
+lblNewLabel_3"__id*
+
+%3javax.swing.JLabelà
+Ö
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaõ õ(
+%5javax.swing.JLabel"__id*#*!
+gui.LoginGUI"
+lblNewLabel_3ª∏
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaõ õ(,
+
+%6void"#java.awt.Component#setBounds(IIII)V*
+
+%5javax.swing.JLabel*2R*2◊*2»*22setBounds(IIII)*
+1*÷
+3>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaô ô(à
+Ö
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaô ô(
+%0javax.swing.JLabel"__id*#*!
+gui.LoginGUI"
+lblNewLabel_3*
+2
+1*¨
+1>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaù
+ ù(à
+Ö
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaù
+ ù(
+%7javax.swing.JLabel"__id*#*!
+gui.LoginGUI"
+lblNewLabel_3"\
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaù ù(
+
+%7javax.swing.JLabelB
+gui.LoginGUI

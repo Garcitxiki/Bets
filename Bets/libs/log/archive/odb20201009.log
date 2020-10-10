@@ -1,0 +1,1834 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 11:53:06 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 10920@LAPTOP-8SSA7ME8
+
+[2020-10-09 11:53:07 #2 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 11:53:07 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 11:53:07 #4 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 11:53:07 #5 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 11:53:07 #6 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 11:53:07 #7 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 11:53:07 #8 type] 
+Type domain.Apuestas is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 12:03:59 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 14160@LAPTOP-8SSA7ME8
+
+[2020-10-09 12:03:59 #2 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 12:03:59 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 12:03:59 #4 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 12:03:59 #5 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 12:03:59 #6 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 12:03:59 #7 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 12:03:59 #8 type] 
+Type domain.Apuestas is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 18:44:10 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 14920@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:44:11 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:44:11 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 18:44:11 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 18:44:11 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 18:44:11 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 18:44:11 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 18:44:11 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 18:44:11 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 18:44:11 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:44:11 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:44:11 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 18:44:11 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 18:44:11 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 18:44:11 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 18:44:11 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 18:44:11 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 18:44:11 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 18:44:11 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 18:44:11 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 18:44:11 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 18:45:24 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 10292@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:45:24 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:45:24 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 18:45:24 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 18:45:24 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 18:45:24 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 18:45:24 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 18:45:24 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 18:45:24 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 18:45:24 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:45:24 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:45:24 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 18:45:24 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 18:45:24 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 18:45:24 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 18:45:24 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 18:45:24 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 18:45:24 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 18:45:24 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 18:45:24 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 18:45:24 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 18:46:24 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 14612@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:46:24 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:46:24 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 18:46:24 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 18:46:24 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 18:46:24 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 18:46:24 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 18:46:24 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 18:46:24 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 18:46:24 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:46:24 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:46:24 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 18:46:24 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 18:46:24 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 18:46:24 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 18:46:24 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 18:46:24 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 18:46:24 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 18:46:24 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 18:46:24 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 18:46:24 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2020-10-09 18:46:24 #22 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' has been recovered (tr. 1-5)
+
+[2020-10-09 18:46:24 #23 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' is opened by 14612@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:46:24 #24 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:46:24 #25 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:46:24 #26 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:46:24 #27 type.registry] 
+New type java.util.Vector<domain.Event>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 18:46:44 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 13924@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:46:44 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:46:44 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 18:46:44 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 18:46:44 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 18:46:44 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 18:46:44 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 18:46:44 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 18:46:44 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 18:46:44 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:46:44 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:46:44 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 18:46:44 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 18:46:44 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 18:46:44 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 18:46:44 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 18:46:44 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 18:46:44 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 18:46:44 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 18:46:44 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 18:46:44 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2020-10-09 18:46:44 #22 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' has been recovered (tr. 6-14)
+
+[2020-10-09 18:46:44 #23 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' is opened by 13924@LAPTOP-8SSA7ME8
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 18:50:55 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 7716@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:50:56 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:50:56 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 18:50:56 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 18:50:56 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 18:50:56 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 18:50:56 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 18:50:56 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 18:50:56 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 18:50:56 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:50:56 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:50:56 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 18:50:56 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 18:50:56 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 18:50:56 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 18:50:56 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 18:50:56 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 18:50:56 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 18:50:56 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 18:50:56 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 18:50:56 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 18:51:20 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 14952@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:51:20 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:51:20 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 18:51:20 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 18:51:20 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 18:51:20 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 18:51:20 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 18:51:20 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 18:51:20 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 18:51:20 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:51:20 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:51:20 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 18:51:20 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 18:51:20 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 18:51:20 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 18:51:20 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 18:51:20 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 18:51:20 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 18:51:20 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 18:51:20 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 18:51:20 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 18:53:32 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 8888@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:53:33 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:53:33 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 18:53:33 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 18:53:33 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 18:53:33 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 18:53:33 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 18:53:33 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 18:53:33 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 18:53:33 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:53:33 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:53:33 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 18:53:33 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 18:53:33 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 18:53:33 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 18:53:33 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 18:53:33 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 18:53:33 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 18:53:33 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 18:53:33 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 18:53:33 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 18:55:10 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 10500@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:55:10 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:55:10 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 18:55:10 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 18:55:10 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 18:55:10 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 18:55:10 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 18:55:10 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 18:55:10 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 18:55:10 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:55:10 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:55:10 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 18:55:10 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 18:55:10 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 18:55:10 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 18:55:10 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 18:55:10 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 18:55:10 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 18:55:10 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 18:55:10 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 18:55:10 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 18:55:47 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 10616@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:55:47 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:55:47 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 18:55:47 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 18:55:47 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 18:55:47 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 18:55:47 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 18:55:47 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 18:55:47 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 18:55:47 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:55:47 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:55:47 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 18:55:47 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 18:55:47 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 18:55:47 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 18:55:47 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 18:55:47 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 18:55:47 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 18:55:47 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 18:55:47 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 18:55:47 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 18:56:20 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 15072@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:56:20 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:56:20 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 18:56:20 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 18:56:20 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 18:56:20 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 18:56:20 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 18:56:20 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 18:56:20 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 18:56:20 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:56:20 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:56:20 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 18:56:20 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 18:56:20 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 18:56:20 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 18:56:20 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 18:56:20 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 18:56:20 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 18:56:20 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 18:56:20 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 18:56:20 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 18:59:17 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 4324@LAPTOP-8SSA7ME8
+
+[2020-10-09 18:59:17 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 18:59:17 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 18:59:17 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 18:59:17 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 18:59:17 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 18:59:17 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 18:59:17 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 18:59:17 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 18:59:17 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 18:59:17 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 18:59:17 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 18:59:17 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 18:59:17 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 18:59:17 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 18:59:17 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 18:59:17 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 18:59:17 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 18:59:17 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 18:59:17 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 18:59:17 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:01:12 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 9824@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:01:12 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:01:12 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:01:12 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:01:12 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:01:12 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:01:12 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:01:12 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:01:12 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:01:12 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:01:12 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:01:12 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:01:12 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:01:12 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:01:12 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:01:12 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:01:12 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:01:12 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:01:12 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:01:12 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:01:12 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:02:50 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 7616@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:02:50 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:02:50 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:02:50 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:02:50 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:02:50 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:02:50 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:02:50 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:02:50 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:02:50 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:02:50 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:02:50 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:02:50 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:02:50 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:02:50 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:02:50 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:02:50 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:02:50 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:02:50 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:02:50 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:02:50 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2020-10-09 19:02:50 #22 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' has been recovered (tr. 15-22)
+
+[2020-10-09 19:02:50 #23 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' is opened by 7616@LAPTOP-8SSA7ME8
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:03:09 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 6624@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:03:09 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:03:09 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:03:09 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:03:09 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:03:09 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:03:09 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:03:09 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:03:09 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:03:09 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:03:09 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:03:09 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:03:09 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:03:09 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:03:09 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:03:09 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:03:09 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:03:09 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:03:09 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:03:09 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:03:09 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:04:22 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 7868@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:04:22 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:04:22 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:04:22 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:04:22 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:04:22 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:04:22 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:04:22 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:04:22 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:04:22 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:04:22 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:04:22 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:04:22 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:04:22 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:04:22 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:04:22 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:04:22 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:04:22 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:04:22 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:04:22 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:04:23 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:09:06 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 8124@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:09:06 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:09:06 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:09:06 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:09:06 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:09:06 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:09:06 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:09:06 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:09:06 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:09:06 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:09:06 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:09:06 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:09:06 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:09:06 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:09:06 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:09:06 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:09:06 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:09:06 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:09:06 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:09:06 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:09:06 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:10:38 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 1696@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:10:38 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:10:38 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:10:38 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:10:38 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:10:38 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:10:38 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:10:38 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:10:38 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:10:38 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:10:38 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:10:38 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:10:38 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:10:38 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:10:38 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:10:38 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:10:38 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:10:38 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:10:38 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:10:38 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:10:38 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:12:05 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 10268@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:12:05 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:12:05 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:12:05 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:12:05 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:12:05 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:12:05 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:12:05 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:12:05 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:12:05 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:12:05 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:12:05 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:12:05 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:12:05 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:12:05 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:12:05 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:12:05 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:12:05 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:12:05 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:12:05 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:12:05 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:13:17 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 12256@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:13:17 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:13:17 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:13:17 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:13:17 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:13:17 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:13:17 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:13:17 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:13:17 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:13:17 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:13:17 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:13:17 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:13:17 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:13:17 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:13:17 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:13:17 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:13:17 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:13:17 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:13:17 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:13:17 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:13:17 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:16:45 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\Bets.odb' is opened by 1696@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:16:45 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:16:45 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:16:45 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:16:45 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:16:45 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:16:45 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:16:45 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:16:45 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:16:45 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:16:45 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:16:45 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:16:45 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:16:45 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:16:45 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:16:45 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:16:45 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:16:45 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:16:45 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:16:45 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:16:45 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:24:21 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' is opened by 8732@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:24:21 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:24:21 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:24:21 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:24:21 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:24:21 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:24:21 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:24:21 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:24:21 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:24:21 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:24:21 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:24:21 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:24:21 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:24:21 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:24:21 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:24:21 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:24:21 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:24:21 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:24:21 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:24:21 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:24:21 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:26:37 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' is opened by 12264@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:26:37 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:26:37 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:26:37 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:26:37 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:26:37 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:26:37 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:26:37 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:26:37 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:26:37 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:26:37 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:26:37 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:26:37 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:26:37 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:26:37 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:26:37 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:26:37 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:26:37 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:26:37 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:26:37 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:26:37 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:27:53 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' is opened by 13484@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:28:00 #2 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:28:00 #3 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:28:00 #4 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:28:00 #5 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:28:00 #6 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:28:00 #7 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:28:00 #8 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:28:00 #9 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:28:00 #10 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:28:00 #11 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:28:00 #12 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:28:00 #13 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:28:00 #14 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:28:00 #15 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:28:00 #16 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:28:00 #17 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:28:00 #18 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:28:00 #19 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:28:00 #20 type.registry] 
+New type java.util.Vector<domain.Event>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:28:11 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' is opened by 11524@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:28:11 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:28:11 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:28:11 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:28:11 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:28:11 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:28:11 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:28:11 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:28:11 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:28:11 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:28:11 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:28:11 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:28:11 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:28:11 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:28:11 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:28:11 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:28:11 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:28:11 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:28:11 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:28:11 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:28:11 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:30:32 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' is opened by 12408@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:30:32 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:30:32 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:30:32 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:30:32 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:30:32 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:30:32 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:30:32 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:30:32 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:30:32 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:30:32 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:30:32 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:30:32 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:30:32 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:30:32 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:30:32 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:30:32 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:30:32 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:30:32 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:30:32 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:30:32 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:58:17 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' is opened by 11620@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:58:18 #2 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:58:18 #3 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:58:18 #4 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:58:18 #5 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:58:18 #6 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:58:18 #7 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:58:18 #8 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:58:18 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:58:18 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:58:18 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:58:18 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:58:18 #13 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:58:18 #14 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:58:18 #15 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:58:18 #16 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:58:18 #17 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:58:18 #18 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:58:18 #19 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:58:18 #20 type] 
+Type domain.Apuestas is not enhanced.
+
+[2020-10-09 19:58:18 #21 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-09 19:58:23 #1 store] 
+Database 'C:\Users\garci\git\Bets\Bets\resources\bets.temp' is opened by 2180@LAPTOP-8SSA7ME8
+
+[2020-10-09 19:58:24 #2 type.registry] 
+New type domain.Event
+
+[2020-10-09 19:58:24 #3 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-09 19:58:24 #4 type.registry] 
+New type domain.Categoria
+
+[2020-10-09 19:58:24 #5 type.registry] 
+New type domain.Question
+
+[2020-10-09 19:58:24 #6 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-09 19:58:24 #7 type] 
+Type domain.Categoria is not enhanced.
+
+[2020-10-09 19:58:24 #8 type.registry] 
+New type java.util.Vector<domain.Event>
+
+[2020-10-09 19:58:24 #9 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-09 19:58:24 #10 type.registry] 
+New type domain.Pronostico
+
+[2020-10-09 19:58:24 #11 type.registry] 
+New type java.util.Vector<domain.Pronostico>
+
+[2020-10-09 19:58:24 #12 type] 
+Type domain.Pronostico is not enhanced.
+
+[2020-10-09 19:58:24 #13 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2020-10-09 19:58:24 #14 type.registry] 
+New type domain.Usuario
+
+[2020-10-09 19:58:24 #15 type] 
+Type domain.Usuario is not enhanced.
+
+[2020-10-09 19:58:24 #16 type.registry] 
+New type domain.Mensaje
+
+[2020-10-09 19:58:24 #17 type.registry] 
+New type java.util.Vector<domain.Mensaje>
+
+[2020-10-09 19:58:24 #18 type.registry] 
+New type domain.Apuestas
+
+[2020-10-09 19:58:24 #19 type.registry] 
+New type java.util.Vector<domain.Apuestas>
+
+[2020-10-09 19:58:24 #20 type] 
+Type domain.Mensaje is not enhanced.
+
+[2020-10-09 19:58:24 #21 type] 
+Type domain.Apuestas is not enhanced.
+

@@ -1,0 +1,56 @@
+
+IbusinessLogic.BLFacadeImplementation#eliminarPregunta(Ldomain/Question;)IV
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java ("startingBlock*ñ
+startingBlockV
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java ((ù
+ö
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÔ Ô(
+
+%4"
+__annotate*
+java.lang.Override*
+
+qdomain.Questioná
+Ñ
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java& ('
+qdomain.Question"__annotation*
+
+%4*
+1*€
+1V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÒ Ò()èå
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÒ Ò('
+%0dataAccess.DataAccess"dataAccess.DataAccess°
+û
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÒ Ò()
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess§
+°
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÒ Ò(*"
+	dbManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccessÖÇ
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÚ	 Ú(&	
+%2int":dataAccess.DataAccess#eliminarPregunta(Ldomain/Question;)I*$
+"
+	dbManagerdataAccess.DataAccess*
+
+qdomain.Question2#eliminarPregunta(Ldomain/Question;)∂≥
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÛ Û(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dbManagerdataAccess.DataAccess2close()"`
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÙ Ù(
+"":
+qdomain.QuestionB(&
+$businessLogic.BLFacadeImplementation

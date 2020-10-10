@@ -1,0 +1,82 @@
+
+qbusinessLogic.BLFacadeImplementation#getEventsCategoryMonth(Ljava/util/Date;Ldomain/Categoria;)Ljava/util/Vector;V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java‹ ‹(+"startingBlock* 
+startingBlockV
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java‹+ ‹(Eü
+ú
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java€ €(
+
+%4"
+__annotate*
+java.lang.Override*
+
+datejava.util.Dateâ
+Ü
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java‹1 ‹(5
+datejava.util.Date"__annotation*
+
+%4†
+ù
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java€ €(
+
+%5"
+__annotate*
+java.lang.Override*
+
+catdomain.Categoriaä
+á
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java‹A ‹(D
+catdomain.Categoria"__annotation*
+
+%5*
+1*Ú
+
+1V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java› ›()èå
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java› ›('
+%0dataAccess.DataAccess"dataAccess.DataAccess°
+û
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java› ›()
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess§
+°
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java› ›(*"
+	dbManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccessÓÎ
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaﬁ ﬁ(B
+%2java.util.Vector"bdataAccess.DataAccess#getEventsCategoryMonth(Ljava/util/Date;Ldomain/Categoria;)Ljava/util/Vector;*$
+"
+	dbManagerdataAccess.DataAccess*
+
+datejava.util.Date*
+
+catdomain.Categoria2:getEventsCategoryMonth(Ljava/util/Date;Ldomain/Categoria;)ñ
+ì
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaﬁ ﬁ(C
+datesjava.util.Vector"__id*
+
+%2java.util.Vector∂≥
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaﬂ ﬂ(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dbManagerdataAccess.DataAccess2close()"u
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java‡ ‡(
+
+datesjava.util.Vector:
+datejava.util.Date:
+catdomain.CategoriaB(&
+$businessLogic.BLFacadeImplementation

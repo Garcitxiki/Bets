@@ -1,0 +1,98 @@
+
+<dataAccess.DataAccess#obtenerPronostico(I)Ljava/util/Vector;G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java·" ·(3"6*ê	
+3G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java½ ½(Ž
+‹
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java½ ½(
+%3domain.Question"
+__arrayGet*
+
+qjava.util.List*
+""Á¾
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java½ ½(#
+%4java.util.Vector"1domain.Question#getPronostico()Ljava/util/Vector;*
+
+%3domain.Question2getPronostico()†
+ƒ
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java½ ½(#
+pronjava.util.Vector"__id*
+
+%4java.util.Vectort
+r
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java¾ ¾(
+%5java.io.PrintStream"__id*
+""»¸
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java¾0 ¾(?
+%6java.lang.String"-java.util.Vector#toString()Ljava/lang/String;*
+
+pronjava.util.Vector2
+toString()£
+ 
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java¾ ¾(?
+%7java.lang.String"__concat*
+Pronsotico aÃ±adido: *
+
+%6java.lang.StringÞÛ
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java¾ ¾(@
+
+%8void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%5java.io.PrintStream*
+
+%7java.lang.String2println(Ljava/lang/String;)*
+5*³
+4G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java¼ ¼(Ž
+‹
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java¼ ¼(
+%1domain.Question"
+__arrayGet*
+
+qjava.util.List*
+""ËÈ
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java¼ ¼(#
+%2java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+%1domain.Question2getQuestionNumber()*
+3
+5*å
+5G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java» »(Ž‹
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java» »(	
+%0int"java.util.List#size()I*
+
+qjava.util.List2size()*
+4
+1*¶
+6G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java¸ ¸( s
+q
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java¸ ¸(!
+pronjava.util.Vector"__id*
+""n
+l
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaº º(,
+qjava.util.List"__id*
+""*
+5*³
+1G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaÂ	 Â("e
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaÂ Â(
+
+pronjava.util.Vector:
+""B
+dataAccess.DataAccess

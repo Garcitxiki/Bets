@@ -20,34 +20,37 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
 import businessLogic.BLFacadeImplementation;
+import configuration.ConfigXML;
+import dataAccess.DataAccess;
 import domain.Usuario;
 
 public class LoginGUI extends JFrame {
 
 	private JPanel contentPane;
 
-	
 	private JRadioButton rdbtnNewRadioButton;
 	private JRadioButton rdbtnNewRadioButton_1;
 	private JRadioButton rdbtnNewRadioButton_2;
 	private JPanel panel;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
-	
-	private JPanel jContentPane=null;
-	private JTextField textUser=null;
-	private JPasswordField textPasswd=null;
-	private JButton jLogButton=null;
-	private JButton jregButton=null;
-	private JLabel lblNewLabel =null;
-	private JLabel lblNewLabel_1 =null;
-	private JLabel lblNewLabel_2 =null;
-	private JLabel lblNewLabel_3 =null;
-	private JLabel lblError=null;
+
+	private JPanel jContentPane = null;
+	private JTextField textUser = null;
+	private JPasswordField textPasswd = null;
+	private JButton jLogButton = null;
+	private JButton jregButton = null;
+	private JLabel lblNewLabel = null;
+	private JLabel lblNewLabel_1 = null;
+	private JLabel lblNewLabel_2 = null;
+	private JLabel lblNewLabel_3 = null;
+	private JLabel lblError = null;
+
 	public static BLFacadeImplementation getBusinessLogic() {
 		return businessLogic;
 	}
+
 	private static BLFacadeImplementation businessLogic;
-	
+
 	public void setBusinessLogic(BLFacadeImplementation businessLogic) {
 		this.businessLogic = businessLogic;
 	}
@@ -75,16 +78,23 @@ public class LoginGUI extends JFrame {
 	 */
 	public LoginGUI() {
 		this.initialize();
-		businessLogic = new BLFacadeImplementation(false);
+		DataAccess da = new DataAccess(false);
+		businessLogic = new BLFacadeImplementation(da);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
-	
-	public LoginGUI(boolean t) {
+
+	public LoginGUI(ConfigXML c) {
 		this.initialize();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		businessLogic = new BLFacadeImplementation(t);
+		System.out.println(c.getLocale());
+		Locale.setDefault(new Locale(c.getLocale()));
+		System.out.println("Locale: " + Locale.getDefault());
+		if (c.isBusinessLogicLocal()) {
+			DataAccess da = new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
+			businessLogic = new BLFacadeImplementation(da);
+		}
 	}
-	
+
 	private JRadioButton getRdbtnNewRadioButton() {
 		if (rdbtnNewRadioButton == null) {
 			rdbtnNewRadioButton = new JRadioButton("English");
@@ -92,13 +102,15 @@ public class LoginGUI extends JFrame {
 				@Override
 				public void actionPerformed(ActionEvent e) {
 					Locale.setDefault(new Locale("en"));
-					System.out.println("Locale: "+Locale.getDefault());
-					redibujar();				}
+					System.out.println("Locale: " + Locale.getDefault());
+					redibujar();
+				}
 			});
 			buttonGroup.add(rdbtnNewRadioButton);
 		}
 		return rdbtnNewRadioButton;
 	}
+
 	private JRadioButton getRdbtnNewRadioButton_1() {
 		if (rdbtnNewRadioButton_1 == null) {
 			rdbtnNewRadioButton_1 = new JRadioButton("Euskara");
@@ -106,13 +118,15 @@ public class LoginGUI extends JFrame {
 				@Override
 				public void actionPerformed(ActionEvent arg0) {
 					Locale.setDefault(new Locale("eus"));
-					System.out.println("Locale: "+Locale.getDefault());
-					redibujar();				}
+					System.out.println("Locale: " + Locale.getDefault());
+					redibujar();
+				}
 			});
 			buttonGroup.add(rdbtnNewRadioButton_1);
 		}
 		return rdbtnNewRadioButton_1;
 	}
+
 	private JRadioButton getRdbtnNewRadioButton_2() {
 		if (rdbtnNewRadioButton_2 == null) {
 			rdbtnNewRadioButton_2 = new JRadioButton("Castellano");
@@ -120,7 +134,7 @@ public class LoginGUI extends JFrame {
 				@Override
 				public void actionPerformed(ActionEvent e) {
 					Locale.setDefault(new Locale("es"));
-					System.out.println("Locale: "+Locale.getDefault());
+					System.out.println("Locale: " + Locale.getDefault());
 					redibujar();
 				}
 			});
@@ -128,7 +142,7 @@ public class LoginGUI extends JFrame {
 		}
 		return rdbtnNewRadioButton_2;
 	}
-	
+
 	private JPanel getPanel() {
 		if (panel == null) {
 			panel = new JPanel();
@@ -139,7 +153,7 @@ public class LoginGUI extends JFrame {
 		}
 		return panel;
 	}
-	
+
 	private void redibujar() {
 		jLogButton.setText(ResourceBundle.getBundle("Etiquetas").getString("Login"));
 		jregButton.setText(ResourceBundle.getBundle("Etiquetas").getString("Register"));
@@ -156,10 +170,10 @@ public class LoginGUI extends JFrame {
 		setBounds(100, 100, 491, 388);
 		this.setContentPane(getJContentPane());
 		this.setTitle(ResourceBundle.getBundle("Etiquetas").getString("Login"));
-	} 
-	
+	}
+
 	private JPanel getJContentPane() {
-		if(jContentPane==null) {
+		if (jContentPane == null) {
 			jContentPane = new JPanel();
 			jContentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 			jContentPane.setLayout(null);
@@ -172,75 +186,80 @@ public class LoginGUI extends JFrame {
 			jContentPane.add(getlblNewLabel_1());
 			jContentPane.add(getlblNewLabel_2());
 			jContentPane.add(getlblNewLabel_3());
-			
-			lblError = new JLabel(); //$NON-NLS-1$ //$NON-NLS-2$
+
+			lblError = new JLabel(); // $NON-NLS-1$ //$NON-NLS-2$
 			lblError.setFont(new Font("Tahoma", Font.PLAIN, 16)); //$NON-NLS-1$ //$NON-NLS-2$
 			lblError.setHorizontalAlignment(SwingConstants.CENTER);
 			lblError.setBounds(82, 303, 272, 16);
 			jContentPane.add(lblError);
 			lblError.setVisible(false);
 			lblError.setForeground(Color.red);
-			
-			
+
 		}
 		return jContentPane;
 	}
-	
+
 	private JTextField getTextUser() {
-		if(textUser==null) {
+		if (textUser == null) {
 			textUser = new JTextField();
 			textUser.setBounds(122, 60, 232, 32);
 			textUser.setColumns(10);
-		}return textUser;
+		}
+		return textUser;
 	}
+
 	private JTextField getTextPasswd() {
-		if(textPasswd==null) {
+		if (textPasswd == null) {
 			textPasswd = new JPasswordField();
 			textPasswd.setBounds(122, 119, 232, 32);
 			textPasswd.setColumns(10);
-		}return textPasswd;
-}
+		}
+		return textPasswd;
+	}
+
 	private JButton getJLogButton() {
-		if (jLogButton==null) {
+		if (jLogButton == null) {
 			jLogButton = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Login"));
 			jLogButton.setBounds(181, 164, 120, 25);
 			jLogButton.addActionListener(new ActionListener() {
 				@Override
 				public void actionPerformed(ActionEvent e) {
 					String nombreUser = textUser.getText();
-					String password = textPasswd.getText(); 
-					if(nombreUser.equals("")|| password.equals("")) {
+					String password = textPasswd.getText();
+					if (nombreUser.equals("") || password.equals("")) {
 						lblError.setText(ResourceBundle.getBundle("Etiquetas").getString("NoRe"));
 						lblError.setVisible(true);
-					}else if(!businessLogic.existeUsuario(nombreUser)){
+					} else if (!businessLogic.existeUsuario(nombreUser)) {
 						lblError.setText(ResourceBundle.getBundle("Etiquetas").getString("ErUs"));
 						lblError.setVisible(true);
-					}else {
-					Usuario user = businessLogic.getUserByNombreUsuario(nombreUser);
-					if(user != null) {
+					} else {
+						Usuario user = businessLogic.getUserByNombreUsuario(nombreUser);
+						if (user != null) {
 							if (password.equals(user.getContrasena())) {
-							if(user.isEsAdmin()) {
-								MainAdminGUI pestanaAdmin = new MainAdminGUI(user);
-								setVisible(false);
-								pestanaAdmin.setVisible(true);
-							}else {
-								MainUserGUI pestanaAdmin = new MainUserGUI(user);
-								setVisible(false);
-								pestanaAdmin.setVisible(true);
+								if (user.isEsAdmin()) {
+									MainAdminGUI pestanaAdmin = new MainAdminGUI(user);
+									setVisible(false);
+									pestanaAdmin.setVisible(true);
+								} else {
+									MainUserGUI pestanaAdmin = new MainUserGUI(user);
+									setVisible(false);
+									pestanaAdmin.setVisible(true);
+								}
+							} else {
+								lblError.setText(ResourceBundle.getBundle("Etiquetas").getString("CoIn"));
+								lblError.setVisible(true);
 							}
-						}else {
-							lblError.setText(ResourceBundle.getBundle("Etiquetas").getString("CoIn"));
-							lblError.setVisible(true);
 						}
-					}
-					
+
 					}
 				}
 			});
-		}return jLogButton;
+		}
+		return jLogButton;
 	}
+
 	private JButton getjregButton() {
-		if(jregButton==null) {
+		if (jregButton == null) {
 			jregButton = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Register"));
 			jregButton.setBounds(318, 215, 141, 25);
 			jregButton.addActionListener(new ActionListener() {
@@ -250,38 +269,43 @@ public class LoginGUI extends JFrame {
 					setVisible(false);
 					pestanaRegistro.setVisible(true);
 				}
-		});
-	}return jregButton;
+			});
+		}
+		return jregButton;
 	}
 
 	private JLabel getlblNewLabel() {
-		if(lblNewLabel==null) {
+		if (lblNewLabel == null) {
 			lblNewLabel = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("User"));
 			lblNewLabel.setBounds(25, 64, 85, 24);
-		}return lblNewLabel;
+		}
+		return lblNewLabel;
 	}
-	
+
 	private JLabel getlblNewLabel_1() {
-		if(lblNewLabel_1==null) {
+		if (lblNewLabel_1 == null) {
 			lblNewLabel_1 = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("Password"));
 			lblNewLabel_1.setBounds(25, 127, 78, 16);
-		}return lblNewLabel_1;
+		}
+		return lblNewLabel_1;
 	}
-	
+
 	private JLabel getlblNewLabel_2() {
-		if(lblNewLabel_2==null) {
+		if (lblNewLabel_2 == null) {
 			lblNewLabel_2 = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("Identify"));
 			lblNewLabel_2.setBounds(120, 15, 234, 32);
 			lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
-			
-		}return lblNewLabel_2;
+
+		}
+		return lblNewLabel_2;
 	}
 
 	private JLabel getlblNewLabel_3() {
-		if(lblNewLabel_3==null) {
+		if (lblNewLabel_3 == null) {
 			lblNewLabel_3 = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("NoAccount"));
 			lblNewLabel_3.setBounds(82, 215, 200, 25);
-			
-		}return lblNewLabel_3;
+
+		}
+		return lblNewLabel_3;
 	}
 }

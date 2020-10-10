@@ -1,0 +1,74 @@
+
+>dataAccess.DataAccess#eliminarPronostico(Ldomain/Pronostico;)IG
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java   ("5*Á
+2G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java– –(ê
+ç
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java– –(
+%1domain.Apuestas"
+__arrayGet*
+
+apujava.util.List*
+""*
+3
+1*ü
+3G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java—
+ —("Q
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java— —(
+""*Ì
+5G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaÀ À(≤Ø
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaÀ, À(C	
+%0int"(domain.Pronostico#getPronosticoNumber()I*
+
+pdomain.Pronostico2getPronosticoNumber()s
+q
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaÀ À(E
+prodomain.Pronostico"__id*
+""p
+n
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaœ œ(-
+apujava.util.List"__id*
+""*
+2*¯
+1G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java” ”(‘—
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java‘) ‘(D
+%2domain.Question":domain.Pronostico#getPreguntaPronostico()Ldomain/Question;*
+
+prodomain.Pronostico2getPreguntaPronostico()r
+p
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java‘ ‘(F
+queedomain.Question"__id*
+""‡›
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java’ ’(
+
+%3void"/domain.Question#removePro(Ldomain/Pronostico;)V*
+
+queedomain.Question*
+
+prodomain.Pronostico2removePro(Ldomain/Pronostico;)≤Ø
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java÷. ÷(E	
+%4int"(domain.Pronostico#getPronosticoNumber()I*
+
+pdomain.Pronostico2getPronosticoNumber()t
+r
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java÷ ÷(G
+proodomain.Pronostico"__id*
+"""Q
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaŸ Ÿ(
+"":
+pdomain.PronosticoB
+dataAccess.DataAccess

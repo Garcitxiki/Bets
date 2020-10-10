@@ -1,10 +1,13 @@
 package gui;
 
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.Font;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.ResourceBundle;
@@ -21,6 +24,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
+import javax.swing.JPopupMenu;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
@@ -28,11 +32,6 @@ import javax.swing.SwingConstants;
 import businessLogic.BLFacade;
 import domain.Event;
 import domain.Usuario;
-import javax.swing.JPopupMenu;
-import java.awt.Component;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
 
 public class MainAdminGUI extends JFrame {
 
@@ -40,19 +39,22 @@ public class MainAdminGUI extends JFrame {
 	private JPanel jContentPane = null;
 	private JButton jButtonCreateQuery = null;
 	private JButton jButtonQueryQueries = null;
-	private Usuario user=null;
-	private JButton jButtonLogout=null;
-	private JButton jButtonCreateEvent=null;
+	private Usuario user = null;
+	private JButton jButtonLogout = null;
+	private JButton jButtonCreateEvent = null;
 	private static BLFacade appFacadeInterface;
 	private JPopupMenu popupMenu_1;
 	private JPopupMenu popupMenu_2;
 	private JButton btnEliminar;
-	public static BLFacade getBusinessLogic(){
+
+	public static BLFacade getBusinessLogic() {
 		return appFacadeInterface;
 	}
-	public static void setBussinessLogic (BLFacade afi){
-		appFacadeInterface=afi;
+
+	public static void setBussinessLogic(BLFacade afi) {
+		appFacadeInterface = afi;
 	}
+
 	protected JLabel jLabelSelectOption;
 	private JRadioButton rdbtnNewRadioButton;
 	private JRadioButton rdbtnNewRadioButton_1;
@@ -66,12 +68,10 @@ public class MainAdminGUI extends JFrame {
 	 */
 	public MainAdminGUI(Usuario usu) {
 		super();
-		this.user=usu;
+		this.user = usu;
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		initialize();
 	}
-
-
 
 	/**
 	 * This method initializes this
@@ -96,8 +96,7 @@ public class MainAdminGUI extends JFrame {
 			jContentPane.add(getLblNewLabel());
 			jContentPane.add(getBoton3());
 
-
-			JButton btnLogout = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Logout")); 
+			JButton btnLogout = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Logout"));
 			btnLogout.addActionListener(new ActionListener() {
 				@Override
 				public void actionPerformed(ActionEvent arg0) {
@@ -114,25 +113,23 @@ public class MainAdminGUI extends JFrame {
 			btnLogout.setBounds(319, 22, 150, 23);
 			jContentPane.add(btnLogout);
 
-
-			JButton btnAddAdmin = new JButton(ResourceBundle.getBundle("Etiquetas").getString("AddAdmin")); 
+			JButton btnAddAdmin = new JButton(ResourceBundle.getBundle("Etiquetas").getString("AddAdmin"));
 			btnAddAdmin.addActionListener(new ActionListener() {
 				@Override
 				public void actionPerformed(ActionEvent e) {
-					AddAdminGUI add= new AddAdminGUI();
+					AddAdminGUI add = new AddAdminGUI();
 					add.setVisible(true);
 				}
 			});
 			btnAddAdmin.setBounds(0, 117, 479, 62);
 			jContentPane.add(btnAddAdmin);
 
-
-			JButton btnValidarPron = new JButton(ResourceBundle.getBundle("Etiquetas").getString("ValPron")); 
-			btnValidarPron.setBounds(0, 180, 479,59);
+			JButton btnValidarPron = new JButton(ResourceBundle.getBundle("Etiquetas").getString("ValPron"));
+			btnValidarPron.setBounds(0, 180, 479, 59);
 			btnValidarPron.addActionListener(new ActionListener() {
 				@Override
 				public void actionPerformed(ActionEvent e) {
-					ValidPronGUI val= new ValidPronGUI(user);
+					ValidPronGUI val = new ValidPronGUI(user);
 					val.setVisible(true);
 					setVisible(false);
 				}
@@ -156,13 +153,15 @@ public class MainAdminGUI extends JFrame {
 			} catch (IOException e1) {
 				e1.printStackTrace();
 			}
-			Image scaledInstanceEliminar = imagenEliminar.getScaledInstance(btnEliminar.getWidth(), btnEliminar.getHeight(), Image.SCALE_SMOOTH);
+			Image scaledInstanceEliminar = imagenEliminar.getScaledInstance(btnEliminar.getWidth(),
+					btnEliminar.getHeight(), Image.SCALE_SMOOTH);
 			btnEliminar.setIcon(new ImageIcon(scaledInstanceEliminar));
 
 			final JMenuItem elimPreg = new JMenuItem(ResourceBundle.getBundle("Etiquetas").getString("DelQue"));
 			elimPreg.addActionListener(new ActionListener() {
+				@Override
 				public void actionPerformed(ActionEvent e) {
-					DeleteQuestionGUI del= new DeleteQuestionGUI(user);
+					DeleteQuestionGUI del = new DeleteQuestionGUI(user);
 					del.setVisible(true);
 					setVisible(false);
 				}
@@ -170,8 +169,9 @@ public class MainAdminGUI extends JFrame {
 
 			final JMenuItem elimPron = new JMenuItem(ResourceBundle.getBundle("Etiquetas").getString("DelPro"));
 			elimPron.addActionListener(new ActionListener() {
+				@Override
 				public void actionPerformed(ActionEvent e) {
-					DeletePronGUI del1= new DeletePronGUI(user);
+					DeletePronGUI del1 = new DeletePronGUI(user);
 					del1.setVisible(true);
 					setVisible(false);
 				}
@@ -179,8 +179,9 @@ public class MainAdminGUI extends JFrame {
 
 			final JMenuItem elimEv = new JMenuItem(ResourceBundle.getBundle("Etiquetas").getString("DelEv"));
 			elimEv.addActionListener(new ActionListener() {
+				@Override
 				public void actionPerformed(ActionEvent e) {
-					DeleteEventGUI del2= new DeleteEventGUI(user);
+					DeleteEventGUI del2 = new DeleteEventGUI(user);
 					del2.setVisible(true);
 					setVisible(false);
 				}
@@ -199,7 +200,6 @@ public class MainAdminGUI extends JFrame {
 			jContentPane.add(btnEliminar);
 			addPopup(btnEliminar, popupMenu_1);
 
-
 			JButton btnForo = new JButton();
 			btnForo.setBounds(10, 250, 52, 41);
 			BufferedImage imagenForo = null;
@@ -214,10 +214,12 @@ public class MainAdminGUI extends JFrame {
 			btnForo.setBorderPainted(false);
 			btnForo.setVerticalTextPosition(SwingConstants.CENTER);
 			btnForo.setHorizontalTextPosition(SwingConstants.CENTER);
-			Image scaledInstanceForo = imagenForo.getScaledInstance(btnForo.getWidth(), btnForo.getHeight(), Image.SCALE_SMOOTH);
+			Image scaledInstanceForo = imagenForo.getScaledInstance(btnForo.getWidth(), btnForo.getHeight(),
+					Image.SCALE_SMOOTH);
 			// convert the Image to BufferedImage
 			btnForo.setIcon(new ImageIcon(scaledInstanceForo));
 			btnForo.addActionListener(new ActionListener() {
+				@Override
 				public void actionPerformed(ActionEvent arg0) {
 					ForoGUI foro = new ForoGUI(user);
 					setVisible(false);
@@ -237,20 +239,22 @@ public class MainAdminGUI extends JFrame {
 			btnAnadir.setBorderPainted(true);
 			btnAnadir.setBackground(Color.GRAY);
 			btnAnadir.setBounds(218, 250, 52, 47);
-			
+
 			BufferedImage imagenAnadir = null;
 			try {
-				imagenAnadir = ImageIO.read(getClass().getResource("/añadir.png"));
+				imagenAnadir = ImageIO.read(getClass().getResource("/anadir.png"));
 			} catch (IOException e1) {
 				e1.printStackTrace();
 			}
-			Image scaledInstanceAnadir = imagenAnadir.getScaledInstance(btnAnadir.getWidth(), btnAnadir.getHeight(), Image.SCALE_SMOOTH);
+			Image scaledInstanceAnadir = imagenAnadir.getScaledInstance(btnAnadir.getWidth(), btnAnadir.getHeight(),
+					Image.SCALE_SMOOTH);
 			btnAnadir.setIcon(new ImageIcon(scaledInstanceAnadir));
-			
+
 			final JMenuItem anadirPreg = new JMenuItem(ResourceBundle.getBundle("Etiquetas").getString("CreateQuery"));
 			anadirPreg.addActionListener(new ActionListener() {
+				@Override
 				public void actionPerformed(ActionEvent e) {
-					BLFacade facade=LoginGUI.getBusinessLogic();
+					BLFacade facade = LoginGUI.getBusinessLogic();
 					JFrame a = new CreateQuestionGUI(new Vector<Event>(), user);
 					a.setVisible(true);
 				}
@@ -258,8 +262,9 @@ public class MainAdminGUI extends JFrame {
 
 			final JMenuItem anadirPron = new JMenuItem(ResourceBundle.getBundle("Etiquetas").getString("TitAnPro"));
 			anadirPron.addActionListener(new ActionListener() {
+				@Override
 				public void actionPerformed(ActionEvent e) {
-					AddPronosticGUI g=new AddPronosticGUI(new Vector<domain.Event>(), user);
+					AddPronosticGUI g = new AddPronosticGUI(new Vector<domain.Event>(), user);
 					g.setVisible(true);
 					setVisible(false);
 				}
@@ -267,6 +272,7 @@ public class MainAdminGUI extends JFrame {
 
 			final JMenuItem anadirEv = new JMenuItem(ResourceBundle.getBundle("Etiquetas").getString("CreateEvents"));
 			anadirEv.addActionListener(new ActionListener() {
+				@Override
 				public void actionPerformed(ActionEvent e) {
 					CreateEventGUI pestanaEvent;
 					try {
@@ -288,14 +294,12 @@ public class MainAdminGUI extends JFrame {
 					popupMenu_2.show(e.getComponent(), 10, 40);
 				}
 			});
-			
+
 			jContentPane.add(btnAnadir);
 
 		}
 		return jContentPane;
 	}
-
-
 
 	/**
 	 * This method initializes boton2
@@ -319,7 +323,6 @@ public class MainAdminGUI extends JFrame {
 		return jButtonQueryQueries;
 	}
 
-
 	private JLabel getLblNewLabel() {
 		if (jLabelSelectOption == null) {
 			jLabelSelectOption = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("SelectOption"));
@@ -339,22 +342,26 @@ public class MainAdminGUI extends JFrame {
 		jButtonLogout.setText(ResourceBundle.getBundle("Etiquetas").getString("Logout"));
 		this.setTitle(ResourceBundle.getBundle("Etiquetas").getString("MainTitle"));
 	}
+
 	private static void addPopup(Component component, final JPopupMenu popup) {
 		component.addMouseListener(new MouseAdapter() {
+			@Override
 			public void mousePressed(MouseEvent e) {
 				if (e.isPopupTrigger()) {
 					showMenu(e);
 				}
 			}
+
+			@Override
 			public void mouseReleased(MouseEvent e) {
 				if (e.isPopupTrigger()) {
 					showMenu(e);
 				}
 			}
+
 			private void showMenu(MouseEvent e) {
 				popup.show(e.getComponent(), e.getX(), e.getY());
 			}
 		});
 	}
 }
-

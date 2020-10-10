@@ -1,0 +1,42 @@
+
+BbusinessLogic.BLFacadeImplementation#getMensajes()Ljava/util/List;V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaã ã(!"1*ﬂ	
+1V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaå å()èå
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaå å('
+%0dataAccess.DataAccess"dataAccess.DataAccess°
+û
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaå å()
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess§
+°
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaå å(*"
+	dbManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccess€ÿ
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaç ç(1
+%2java.util.List"3dataAccess.DataAccess#getMensajes()Ljava/util/List;*$
+"
+	dbManagerdataAccess.DataAccess2getMensajes()ï
+í
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaç ç(2
+mensajesjava.util.List"__id*
+
+%2java.util.List∂≥
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaé é(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dbManagerdataAccess.DataAccess2close()"v
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaè è(
+
+mensajesjava.util.ListB(&
+$businessLogic.BLFacadeImplementation

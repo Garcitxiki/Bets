@@ -1,0 +1,16 @@
+
++domain.Mensaje#getDeQuien()Ldomain/Usuario;>
+4C:/Users/garci/git/Bets/Bets/src/domain/Mensaje.java4 4("1*
+1>
+4C:/Users/garci/git/Bets/Bets/src/domain/Mensaje.java5	 5(
+}
+>
+4C:/Users/garci/git/Bets/Bets/src/domain/Mensaje.java5	 5(
+%0domain.Usuario"__id**
+domain.Mensaje"	
+deQuien"X
+>
+4C:/Users/garci/git/Bets/Bets/src/domain/Mensaje.java5 5(
+
+%0domain.UsuarioB
+domain.Mensaje

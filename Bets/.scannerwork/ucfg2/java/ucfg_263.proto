@@ -1,0 +1,74 @@
+
+1gui.LoginGUI#getlblNewLabel()Ljavax/swing/JLabel;>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java ("3*’
+
+2>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaƒ ƒ(*â
+ß
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaƒ ƒ(A
+%1java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+	Etiquetasðí
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaƒ ƒ(S
+%2java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
+
+%1java.util.ResourceBundle*
+User2getString(Ljava/lang/String;)pn
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaƒ ƒ(
+%3javax.swing.JLabel"javax.swing.JLabel¯
+¬
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaƒ ƒ(T
+%4".javax.swing.JLabel#<init>(Ljava/lang/String;)V*
+
+%3javax.swing.JLabel*
+
+%2java.lang.String†
+ƒ
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaƒ ƒ(T
+gui.LoginGUI"
+lblNewLabel"__id*
+
+%3javax.swing.JLabel†
+ƒ
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java„ „(
+%5javax.swing.JLabel"__id*!*
+gui.LoginGUI"
+lblNewLabel¹¶
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java„ „((
+
+%6void"#java.awt.Component#setBounds(IIII)V*
+
+%5javax.swing.JLabel*2*2@*2U*22setBounds(IIII)*
+1*Ô
+3>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java‚ ‚(†
+ƒ
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java‚ ‚(
+%0javax.swing.JLabel"__id*!*
+gui.LoginGUI"
+lblNewLabel*
+2
+1*ª
+1>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java…
+ …(†
+ƒ
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java…
+ …(
+%7javax.swing.JLabel"__id*!*
+gui.LoginGUI"
+lblNewLabel"\
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java… …(
+
+%7javax.swing.JLabelB
+gui.LoginGUI

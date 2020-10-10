@@ -1,0 +1,56 @@
+
+LbusinessLogic.BLFacadeImplementation#eliminarPronotico(Ldomain/Pronostico;)IV
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaô ô("startingBlock*ö
+startingBlockV
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaô ô(+ü
+ú
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaò ò(
+
+%4"
+__annotate*
+java.lang.Override*
+
+pdomain.Pronosticoâ
+Ü
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaô) ô(*
+pdomain.Pronostico"__annotation*
+
+%4*
+1*Â
+1V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaö ö()èå
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaö ö('
+%0dataAccess.DataAccess"dataAccess.DataAccess°
+û
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaö ö()
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess§
+°
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaö ö(*"
+	dbManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccessèå
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaõ	 õ((	
+%2int">dataAccess.DataAccess#eliminarPronostico(Ldomain/Pronostico;)I*$
+"
+	dbManagerdataAccess.DataAccess*
+
+pdomain.Pronostico2'eliminarPronostico(Ldomain/Pronostico;)∂≥
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaú ú(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dbManagerdataAccess.DataAccess2close()"`
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaù ù(
+"":
+pdomain.PronosticoB(&
+$businessLogic.BLFacadeImplementation

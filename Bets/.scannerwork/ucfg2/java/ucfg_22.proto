@@ -1,0 +1,37 @@
+
+)domain.Event#toString()Ljava/lang/String;<
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java^ ^("1*Ç
+1<
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java_	 _(ƒ
+€
+<
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java_	 _(
+%0java.lang.Integer"__id*!*
+domain.Event"
+eventNumber…
+‚
+<
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java_	 _(
+%1java.lang.String"__concat*
+
+%0java.lang.Integer*
+;
+
+<
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java_ _($
+%2java.lang.String"__id*!*
+domain.Event"
+description—
+”
+<
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java_	 _($
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.String"X
+<
+2C:/Users/garci/git/Bets/Bets/src/domain/Event.java_ _(%
+
+%3java.lang.StringB
+domain.Event

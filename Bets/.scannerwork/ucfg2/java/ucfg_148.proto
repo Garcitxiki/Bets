@@ -1,0 +1,59 @@
+
+,domain.Question#toString()Ljava/lang/String;A
+5C:/Users/garci/git/Bets/Bets/src/domain/Question.javaš š("1*Ä	
+1A
+5C:/Users/garci/git/Bets/Bets/src/domain/Question.java›	 ›(Ž
+‹
+A
+5C:/Users/garci/git/Bets/Bets/src/domain/Question.java›	 ›(
+%0java.lang.Integer"__id*'*%
+domain.Question"
+questionNumberŠ
+‡
+A
+5C:/Users/garci/git/Bets/Bets/src/domain/Question.java›	 ›(
+%1java.lang.String"__concat*
+
+%0java.lang.Integer*
+;‡
+„
+A
+5C:/Users/garci/git/Bets/Bets/src/domain/Question.java›  ›((
+%2java.lang.String"__id*!*
+domain.Question"
+
+questionœ
+™
+A
+5C:/Users/garci/git/Bets/Bets/src/domain/Question.java›	 ›((
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.String‰
+†
+A
+5C:/Users/garci/git/Bets/Bets/src/domain/Question.java›	 ›(.
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+;ª
+§
+A
+5C:/Users/garci/git/Bets/Bets/src/domain/Question.java›1 ›(K
+%5java.lang.String"-java.lang.Float#toString(F)Ljava/lang/String;*"
+java.lang.Float*
+""œ
+™
+A
+5C:/Users/garci/git/Bets/Bets/src/domain/Question.java›	 ›(K
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.lang.String"]
+A
+5C:/Users/garci/git/Bets/Bets/src/domain/Question.java› ›(L
+
+%6java.lang.StringB
+domain.Question

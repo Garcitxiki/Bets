@@ -1,0 +1,7 @@
+organization=garcitxiki
+projectKey=BetsIS2
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.13169
+dashboardUrl=https://sonarcloud.io/dashboard?id=BetsIS2
+ceTaskId=AXUMzmgBABDSP37Gjgxn
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXUMzmgBABDSP37Gjgxn

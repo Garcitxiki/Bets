@@ -1,0 +1,111 @@
+
+DbusinessLogic.BLFacadeImplementation#eliminarEvento(Ldomain/Event;)IV
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaß ß("startingBlock*‹
+2V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java≤ ≤(˘ˆ
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java≤ ≤($	
+%5int"5dataAccess.DataAccess#eliminarEvento(Ldomain/Event;)I*$
+"
+	dbManagerdataAccess.DataAccess*
+
+evdomain.Event2eliminarEvento(Ldomain/Event;)*
+1*Ñ
+3V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaØ Ø(~
+|
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaØ Ø(
+qdomain.Question"__id*
+""û
+õ
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaØ Ø(
+qdomain.Question"
+__arrayGet*
+
+njava.util.Vector*
+""*
+2
+4*í
+startingBlockV
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaß ß($õ
+ò
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java¶ ¶(
+
+%7"
+__annotate*
+java.lang.Override*
+
+evdomain.EventÖ
+Ç
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaß! ß(#
+evdomain.Event"__annotation*
+
+%7*
+8*Ë
+4V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java∞ ∞(ÖÇ
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java∞ ∞(!	
+%4int":dataAccess.DataAccess#eliminarPregunta(Ldomain/Question;)I*$
+"
+	dbManagerdataAccess.DataAccess*
+
+qdomain.Question2#eliminarPregunta(Ldomain/Question;)*
+3*¿
+6V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÆ Æ(»≈
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÆ Æ()
+%3java.util.Vector"-domain.Event#getQuestions()Ljava/util/Vector;*
+
+evdomain.Event2getQuestions()í
+è
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÆ Æ(*
+njava.util.Vector"__id*
+
+%3java.util.Vector*
+3* 
+8V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java® ®()èå
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java® ®('
+%0dataAccess.DataAccess"dataAccess.DataAccess°
+û
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java® ®()
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess§
+°
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java® ®(*"
+	dbManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccessáÑ
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java© ©(/
+%2boolean":dataAccess.DataAccess#eventoTieneApuestas(Ldomain/Event;)Z*$
+"
+	dbManagerdataAccess.DataAccess*
+
+evdomain.Event2#eventoTieneApuestas(Ldomain/Event;)*
+6
+1*ˆ
+1V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaµ µ(∂≥
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaµ µ(
+
+%6void"dataAccess.DataAccess#close()V*$
+"
+	dbManagerdataAccess.DataAccess2close()"`
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java∂ ∂(
+"":
+evdomain.EventB(&
+$businessLogic.BLFacadeImplementation

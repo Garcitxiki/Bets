@@ -1,0 +1,46 @@
+
+:dataAccess.DataAccess#eventoTieneApuestas(Ldomain/Event;)ZG
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaò ò(#"5*ç
+2G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaø ø(
+
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaø ø(
+%1domain.Apuestas"
+__arrayGet*
+
+apujava.util.List*
+""*
+3
+1*Ÿ
+3G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaù
+ ù("Q
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaù ù(
+""*ó
+5G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaó ó(¿¼
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaó  ó(3
+%0java.lang.Integer"0domain.Event#getEventNumber()Ljava/lang/Integer;*
+
+evdomain.Event2getEventNumber()l
+j
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaó ó(5
+edomain.Event"__id*
+""p
+n
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java÷ ÷(-
+apujava.util.List"__id*
+""*
+2*Ÿ
+1G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaû	 û("Q
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaû û(
+"":
+evdomain.EventB
+dataAccess.DataAccess

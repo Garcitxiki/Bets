@@ -1,0 +1,64 @@
+
+UbusinessLogic.BLFacadeImplementation#getQuestion(Ljava/lang/String;)Ldomain/Question;V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÛ Û("startingBlock*ú
+startingBlockV
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÛ Û((†
+ù
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÚ Ú(
+
+%4"
+__annotate*
+java.lang.Override*
+
+usujava.lang.Stringä
+á
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÛ$ Û('
+usujava.lang.String"__annotation*
+
+%4*
+1*õ
+
+1V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÙ Ù()èå
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÙ Ù('
+%0dataAccess.DataAccess"dataAccess.DataAccess°
+û
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÙ Ù()
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess§
+°
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÙ Ù(*"
+	dBManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccessúô
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaı ı(,
+%2domain.Question"FdataAccess.DataAccess#getQuestion(Ljava/lang/String;)Ldomain/Question;*$
+"
+	dBManagerdataAccess.DataAccess*
+
+usujava.lang.String2getQuestion(Ljava/lang/String;)ì
+ê
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaı ı(-
+cartdomain.Question"__id*
+
+%2domain.Question∂≥
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaˆ ˆ(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dBManagerdataAccess.DataAccess2close()"s
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java˜ ˜(
+
+cartdomain.Question:
+usujava.lang.StringB(&
+$businessLogic.BLFacadeImplementation

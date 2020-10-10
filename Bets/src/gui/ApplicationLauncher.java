@@ -1,20 +1,18 @@
 package gui;
 
-import java.util.Locale;
-
 import javax.swing.UIManager;
 
 import businessLogic.BLFacade;
+import businessLogic.BLFacadeImplementation;
 import configuration.ConfigXML;
 
 public class ApplicationLauncher {
 
+	private static BLFacadeImplementation businessLogic;
+
 	public static void main(String[] args) {
 		ConfigXML c = ConfigXML.getInstance();
-		System.out.println(c.getLocale());
-		Locale.setDefault(new Locale(c.getLocale()));
-		System.out.println("Locale: " + Locale.getDefault());
-		LoginGUI b = new LoginGUI(false);
+		LoginGUI b = new LoginGUI(c);
 		b.setVisible(true);
 
 		try {

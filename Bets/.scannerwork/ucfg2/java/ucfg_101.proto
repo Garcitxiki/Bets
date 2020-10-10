@@ -1,0 +1,106 @@
+
+:dataAccess.DataAccess#eliminarPregunta(Ldomain/Question;)IG
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaı ı("9*İ
+2G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaŠ Š(q
+o
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaŠ Š(
+pdomain.Pronostico"__id*
+""“
+
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaŠ Š(
+pdomain.Pronostico"
+__arrayGet*
+
+projava.util.Vector*
+""*
+2
+1*ƒ
+5G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java† †(ÊÇ
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java‡) ‡(>
+%2java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+qdomain.Question2getQuestionNumber()r
+p
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java‡ ‡(@
+queedomain.Question"__id*
+""±®
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaˆ" ˆ(1
+%3domain.Event"(domain.Question#getEvent()Ldomain/Event;*
+
+queedomain.Question2
+getEvent()m
+k
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaˆ ˆ(3
+evdomain.Event"__id*
+""ÃÀ
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java‰ ‰(.
+%4java.util.Vector"1domain.Question#getPronostico()Ljava/util/Vector;*
+
+queedomain.Question2getPronostico()…
+‚
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java‰ ‰(/
+projava.util.Vector"__id*
+
+%4java.util.Vector*
+2*ç
+6G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaƒ ƒ(
+
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaƒ ƒ(
+%1domain.Apuestas"
+__arrayGet*
+
+apujava.util.List*
+""*
+5
+7*Ÿ
+7G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java„
+ „("Q
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java„ „(
+""*ƒ
+9G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaş ş(ÊÇ
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaş( ş(=
+%0java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+qdomain.Question2getQuestionNumber()q
+o
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.javaş ş(?
+quedomain.Question"__id*
+""p
+n
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java‚ ‚(-
+apujava.util.List"__id*
+""*
+6*ÿ
+1G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java (İÚ
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java (
+
+%5void"/domain.Event#removeQuestion(Ldomain/Question;)V*
+
+evdomain.Event*
+
+queedomain.Question2!removeQuestion(Ldomain/Question;)"Q
+G
+;C:/Users/garci/git/Bets/Bets/src/dataAccess/DataAccess.java‘ ‘(
+"":
+qdomain.QuestionB
+dataAccess.DataAccess

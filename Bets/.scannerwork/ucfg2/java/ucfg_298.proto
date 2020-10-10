@@ -1,0 +1,42 @@
+
+FbusinessLogic.BLFacadeImplementation#getCategories()Ljava/util/Vector;V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaı ı('"1*ç	
+1V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaş ş()Œ
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaş ş('
+%0dataAccess.DataAccess"dataAccess.DataAccess¡
+
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaş ş()
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess¤
+¡
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaş ş(*"
+	dBManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccesséæ
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÿ ÿ(5
+%2java.util.Vector":dataAccess.DataAccess#obtainCategories()Ljava/util/Vector;*$
+"
+	dBManagerdataAccess.DataAccess2obtainCategories()“
+
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.javaÿ ÿ(6
+cajava.util.Vector"__id*
+
+%2java.util.Vector¶³
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java€ €(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dBManagerdataAccess.DataAccess2close()"r
+V
+JC:/Users/garci/git/Bets/Bets/src/businessLogic/BLFacadeImplementation.java (
+
+cajava.util.VectorB(&
+$businessLogic.BLFacadeImplementation

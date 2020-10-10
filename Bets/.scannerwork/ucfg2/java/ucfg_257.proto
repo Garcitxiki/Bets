@@ -1,0 +1,77 @@
+
+2gui.LoginGUI#getTextUser()Ljavax/swing/JTextField;>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java½ ½("3*Ý
+2>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java¿ ¿(xv
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java¿ ¿(
+%1javax.swing.JTextField"javax.swing.JTextField‹
+ˆ
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java¿ ¿(
+%2" javax.swing.JTextField#<init>()V*
+
+%1javax.swing.JTextField‡
+„
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java¿ ¿(
+gui.LoginGUI"
+
+textUser"__id*
+
+%1javax.swing.JTextField‡
+„
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaÀ À(
+%3javax.swing.JTextField"__id**
+gui.LoginGUI"
+
+textUser¾»
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaÀ À('
+
+%4void"#java.awt.Component#setBounds(IIII)V*
+
+%3javax.swing.JTextField*2z*2<*2è*2 2setBounds(IIII)‡
+„
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaÁ Á(
+%5javax.swing.JTextField"__id**
+gui.LoginGUI"
+
+textUser«¨
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaÁ Á(
+
+%6void"%javax.swing.JTextField#setColumns(I)V*
+
+%5javax.swing.JTextField*2
+2setColumns(I)*
+1*Õ
+3>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java¾ ¾(‡
+„
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.java¾ ¾(
+%0javax.swing.JTextField"__id**
+gui.LoginGUI"
+
+textUser*
+2
+1*¯
+1>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaÂ
+ Â(‡
+„
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaÂ
+ Â(
+%7javax.swing.JTextField"__id**
+gui.LoginGUI"
+
+textUser"`
+>
+2C:/Users/garci/git/Bets/Bets/src/gui/LoginGUI.javaÂ Â(
+
+%7javax.swing.JTextFieldB
+gui.LoginGUI
