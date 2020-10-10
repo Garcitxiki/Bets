@@ -396,26 +396,22 @@ public class DataAccess {
 	public void createEvent(String description, Date eventDate, Categoria ca) {
 		System.out.println(">> DataAccess: createEvent=> description= " + description + " eventDate=" + eventDate);
 
-		boolean t = false;
-
 		TypedQuery<Event> query = db.createQuery("SELECT e FROM Event e WHERE e.description='" + description + "'",
 				Event.class);
 		List<Event> eventos = query.getResultList();
 		for (Event e : eventos) {
 			if (e.getEventDate().equals(eventDate)) {
-				t = true;
+				return;
 			}
 		}
 
-		if (!t) {
-			db.getTransaction().begin();
+		db.getTransaction().begin();
 
-			Categoria c = db.find(Categoria.class, ca.getCatNumber());
-			Event e = new Event(description, eventDate, ca);
-			c.addEvent(e);
-			db.persist(e);
-			db.getTransaction().commit();
-		}
+		Categoria c = db.find(Categoria.class, ca.getCatNumber());
+		Event e = new Event(description, eventDate, ca);
+		c.addEvent(e);
+		db.persist(e);
+		db.getTransaction().commit();
 
 	}
 

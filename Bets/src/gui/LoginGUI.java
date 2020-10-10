@@ -19,9 +19,8 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 
+import businessLogic.BLFacade;
 import businessLogic.BLFacadeImplementation;
-import configuration.ConfigXML;
-import dataAccess.DataAccess;
 import domain.Usuario;
 
 public class LoginGUI extends JFrame {
@@ -45,11 +44,11 @@ public class LoginGUI extends JFrame {
 	private JLabel lblNewLabel_3 = null;
 	private JLabel lblError = null;
 
-	public static BLFacadeImplementation getBusinessLogic() {
+	public static BLFacade getBusinessLogic() {
 		return businessLogic;
 	}
 
-	private static BLFacadeImplementation businessLogic;
+	private static BLFacade businessLogic;
 
 	public void setBusinessLogic(BLFacadeImplementation businessLogic) {
 		this.businessLogic = businessLogic;
@@ -78,21 +77,11 @@ public class LoginGUI extends JFrame {
 	 */
 	public LoginGUI() {
 		this.initialize();
-		DataAccess da = new DataAccess(false);
-		businessLogic = new BLFacadeImplementation(da);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 
-	public LoginGUI(ConfigXML c) {
-		this.initialize();
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		System.out.println(c.getLocale());
-		Locale.setDefault(new Locale(c.getLocale()));
-		System.out.println("Locale: " + Locale.getDefault());
-		if (c.isBusinessLogicLocal()) {
-			DataAccess da = new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
-			businessLogic = new BLFacadeImplementation(da);
-		}
+	public static void setBusinessLogic(BLFacade buss) {
+		businessLogic = buss;
 	}
 
 	private JRadioButton getRdbtnNewRadioButton() {

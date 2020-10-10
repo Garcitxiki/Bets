@@ -242,7 +242,7 @@ public class MainAdminGUI extends JFrame {
 
 			BufferedImage imagenAnadir = null;
 			try {
-				imagenAnadir = ImageIO.read(getClass().getResource("/anadir.png"));
+				imagenAnadir = ImageIO.read(getClass().getResource("/añadir.png"));
 			} catch (IOException e1) {
 				e1.printStackTrace();
 			}
