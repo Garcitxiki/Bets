@@ -401,6 +401,7 @@ public class DataAccess {
 		List<Event> eventos = query.getResultList();
 		for (Event e : eventos) {
 			if (e.getEventDate().equals(eventDate)) {
+				System.out.println("Evento existente");
 				return;
 			}
 		}
