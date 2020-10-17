@@ -129,10 +129,11 @@ public class BLFacadeImplementation implements BLFacade {
 	 * @param ca
 	 */
 	@Override
-	public void createEvent(String description, Date eventDate, Categoria ca) {
+	public Event createEvent(String description, Date eventDate, Categoria ca) {
 		dbManager.open(false);
-		dbManager.createEvent(description, eventDate, ca);
+		Event e = dbManager.createEvent(description, eventDate, ca);
 		dbManager.close();
+		return e;
 	}
 
 	/**
@@ -233,6 +234,13 @@ public class BLFacadeImplementation implements BLFacade {
 		Double cart = dbManager.getCartera(usu);
 		dbManager.close();
 		return cart;
+	}
+
+	public Categoria getCategoria(int catNumber) {
+		dbManager.open(false);
+		Categoria cat = dbManager.getCategoria(catNumber);
+		dbManager.close();
+		return cat;
 	}
 
 	/**
