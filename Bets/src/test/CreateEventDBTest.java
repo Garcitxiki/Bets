@@ -42,7 +42,6 @@ class CreateEventDBTest {
 	@Test
 	@DisplayName("Mismo nombre, evento distinto")
 	void test2() throws ParseException {
-		// “Raptors-Cavaliers , 2020/10/17,Baloncesto”
 		ca = DAO.getCategoria(2);
 		eventDate = sdf.parse("18/11/2020");
 		description = "Raptors-Cavaliers";
@@ -59,7 +58,6 @@ class CreateEventDBTest {
 	@Test
 	@DisplayName("Evento inexistente")
 	void test3() throws ParseException {
-		// “Raptors-Cavaliers , 2020/10/17,Baloncesto”
 		Categoria ca = DAO.getCategoria(2);
 		Date eventDate = sdf.parse("12/11/2020");
 		String description = "Raptors-Madrid";
