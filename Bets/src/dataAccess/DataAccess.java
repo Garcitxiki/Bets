@@ -393,7 +393,7 @@ public class DataAccess {
 	 * @param cat
 	 * @return
 	 */
-	public void createEvent(String description, Date eventDate, Categoria ca) {
+	public Event createEvent(String description, Date eventDate, Categoria ca) {
 		System.out.println(">> DataAccess: createEvent=> description= " + description + " eventDate=" + eventDate);
 
 		TypedQuery<Event> query = db.createQuery("SELECT e FROM Event e WHERE e.description='" + description + "'",
@@ -402,7 +402,7 @@ public class DataAccess {
 		for (Event e : eventos) {
 			if (e.getEventDate().equals(eventDate)) {
 				System.out.println("Evento existente");
-				return;
+				return null;
 			}
 		}
 
@@ -413,7 +413,7 @@ public class DataAccess {
 		c.addEvent(e);
 		db.persist(e);
 		db.getTransaction().commit();
-
+		return e;
 	}
 
 	/**
@@ -593,6 +593,17 @@ public class DataAccess {
 		Usuario ub = db.find(Usuario.class, usu.getNombreUsuario());
 		double cart = ub.getCartera();
 		return cart;
+	}
+
+	/**
+	 * Dado un usuario obtiene el dinero que tiene en la cartera
+	 * 
+	 * @param usu
+	 * @return
+	 */
+	public Categoria getCategoria(int catNumber) {
+		Categoria cat = db.find(Categoria.class, catNumber);
+		return cat;
 	}
 
 	/**
