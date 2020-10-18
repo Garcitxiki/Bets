@@ -14,6 +14,8 @@ import javax.persistence.Persistence;
 
 import configuration.ConfigXML;
 import domain.Event;
+import domain.Pronostico;
+import domain.Question;
 
 public class TestDataAccess {
 	protected EntityManager db;
@@ -81,4 +83,64 @@ public class TestDataAccess {
 		}
 		return ev;
 	}
+	
+	/*
+	public Question addQuestion(String question, int cuota, Event ev) {
+		Question q1 = null;
+		
+		try {
+			Event e = db.find(Event.class, ev.getEventNumber());
+			db.getTransaction().begin();
+			q1 = e.addQuestion("¿Quién ganará el partido?", 1);
+			db.persist(q1);
+			db.getTransaction().commit();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		return q1;
+	}
+	
+	public boolean removeQuestion(Question q) {
+		System.out.println(">> DataAccessTest: removeQuestion");
+		Question quest = db.find(Question.class, q.getQuestionNumber());
+		if (quest != null) {
+			db.getTransaction().begin();
+			db.remove(quest);
+			db.getTransaction().commit();
+			return true;
+		} else
+			return false;
+		
+	}
+	
+	public boolean removePronostico(Pronostico p) {
+		System.out.println(">> DataAccessTest: removePronostico");
+		Pronostico pro = db.find(Pronostico.class, p.getPronosticoNumber());
+		if (pro != null) {
+			db.getTransaction().begin();
+			db.remove(pro);
+			db.getTransaction().commit();
+			return true;
+		} else
+			return false;
+		
+	}
+	
+	public Pronostico addPronostico(String pronostico, double cuota, Question q) {
+		Pronostico p1 = null;
+		
+		try {
+			Question quest = db.find(Question.class, q.getQuestionNumber());
+			db.getTransaction().begin();
+			p1 = quest.addPronostico("1", 1.6, q);
+			db.persist(p1);
+			db.getTransaction().commit();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		return p1;
+	}*/
+	
 }
