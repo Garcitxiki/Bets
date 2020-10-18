@@ -63,6 +63,20 @@ public class Pronostico {
 		return this.pronostico+": "+this.cuota;
 	}
 	
+	@Override
+	public boolean equals(Object o) {
+		if (o instanceof Pronostico) {
+			if (this.pronostico.equals(((Pronostico) o).getPronostico()) &&
+				this.cuota == ((Pronostico) o).getCuota() &&
+				this.preguntaPronostico == ((Pronostico) o).getPreguntaPronostico()) {
+					return true;
+			} else {
+					return false;
+			}
+		}else {
+			return false;
+		}
+	}
 	
 
 
